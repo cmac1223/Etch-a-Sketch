@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  /* display: flex; */
+  /* max-height: 768px; */
+  max-height: 828px;
+  max-width: 768px;
+  /* top: 15px; */
+  outline: solid red;
+}
+
+.grid {
+  display: inline-block;
+  /* display: inline-flex; */
+  min-height: 48px;
+  min-width: 48px;
+  border: none;
+  outline: solid;
+  margin: 0;
+  padding: 0;
+}
