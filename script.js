@@ -1,3 +1,6 @@
+// grid needs to be  960px x 960px
+// prompt asking using for # of cells
+
 const container = document.querySelector('#container');
 
 // create grid div and grid class
