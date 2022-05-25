@@ -8,19 +8,15 @@ body {
 }
 
 #container {
-  /* display: flex; */
-  /* flex-direction: column; */
   top: 50px;
   margin: 50px 0;
-  /* max-height: 768px; */
   max-height: 828px;
   max-width: 768px;
   outline: solid red;
 }
 
 .grid {
-  display: inline-flex;
-  /* display: inline-flex; */
+  display: inline-block;
   min-height: 48px;
   min-width: 48px;
   border: none;

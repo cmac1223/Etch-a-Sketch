@@ -6,7 +6,7 @@ function createGrid(x) {
   for (let rows = 0; rows < x; rows++) {
     for (let columns = 0; columns < x; columns++) {
       const grid = document.createElement('div');
-      grid.classList.add('grid');
+      grid.classList.add("grid");
       container.appendChild(grid)
     }
   }
@@ -14,3 +14,18 @@ function createGrid(x) {
 }
 
 createGrid(16);
+
+let grid = document.getElementsByClassName("grid");
+// console.log(test);
+
+for (let cell of grid) {
+  cell.addEventListener("mouseover", function (e) {
+    // debugger;
+    e.target.style.color = "purple";
+  })
+}
+
+// test.addEventListener("mouseover", function (e) {
+//   // debugger;
+//   e.target.style.color = "purple";
+// })
