@@ -21,7 +21,7 @@ let grid = document.getElementsByClassName("grid");
 for (let cell of grid) {
   cell.addEventListener("mouseover", function (e) {
     // debugger;
-    e.target.style.color = "purple";
+    e.target.style.backgroundColor = "purple";
   })
 }
 
