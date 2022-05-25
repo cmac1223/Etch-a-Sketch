@@ -10,7 +10,8 @@ body {
 #container {
   top: 50px;
   margin: 50px 0;
-  max-height: 828px;
+  /* I'm alttle confuse as to what the max height is different from the widths */
+  max-height: 828px; 
   max-width: 768px;
   outline: solid red;
 }
