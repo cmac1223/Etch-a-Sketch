@@ -12,7 +12,6 @@ function createGrid(x) {
     for (let columns = 0; columns < x; columns++) {
       const blah = document.createElement('div');
       blah.classList.add("grid");
-      blah.innerText = '_';
 
       // blah.id = `${columns + 1} `;
       // console.log(cell.id, "++<>")
