@@ -52,3 +52,15 @@ function hoverCell() {
   }
 }
 
+const buttonContainer = document.createElement('div');
+
+// create button and add it to the DOM 
+const gridButton = document.createElement('button');
+
+//create a class
+gridButton.classList.add('grid-button');
+gridButton.textContent = 'Number of Cells';
+document.body.appendChild(gridButton)
+
+// Add event-listener to gridButton
+gridButton.addEventListener('click', myFunction);
