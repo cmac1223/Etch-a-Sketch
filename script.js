@@ -30,14 +30,14 @@ hoverCell();
 // test function to see rather or not we can change the grid cells
 function myFunction() {
   removeGrid();
-  let size = prompt('Pick a number')
+  let size = prompt('Please select any number ranging from 0 to 100.')
   // if statement inorder to add conditionals to prompt we want only numbers with a max limit of 100
   // debugger;
   if (parseInt(size) <= 100) {
     createGrid(size);
     hoverCell();
   } else {
-    alert("You must select a number no greater than 100.")
+    alert("Please select any number ranging from 0 to 100.")
   }
 
 }
