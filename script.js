@@ -52,15 +52,25 @@ function hoverCell() {
   }
 }
 
-const buttonContainer = document.createElement('div');
+// Creat div container for button and title
+const topContainer = document.createElement('div');
+topContainer.classList.add('topContainer');
+
+// create title
+const title = document.createElement('h1');
+title.classList.add('title');
+title.textContent = 'Etch-A-Sketch'
 
 // create button and add it to the DOM 
 const gridButton = document.createElement('button');
 
 //create a class
 gridButton.classList.add('grid-button');
-gridButton.textContent = 'Number of Cells';
-document.body.appendChild(gridButton)
+gridButton.textContent = 'New Grid';
+
+topContainer.appendChild(title)
+topContainer.appendChild(gridButton);
+document.body.appendChild(topContainer)
 
 // Add event-listener to gridButton
 gridButton.addEventListener('click', myFunction);
